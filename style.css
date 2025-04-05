@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light+Two&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e2c1c1;
+}
+
+#container{
+    width: 100%;
+    max-width: 700px;
+    height: 80%;
+    max-height: 700px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name, #price, #quantity{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    color: #b36666;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 2.9em;
+    color: #b36666;
+    padding: 10px;
+    margin: 30px 20px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    background-color: #b36666;
+    color: rgb(255, 255, 255);
+    
+}
+
+#sub {
+    margin-top: 10px;
+    padding: 15px;
+    width: 30%;
+    margin-left: 73%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0b4b45e;
+    color: #b36666;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+#sub:hover {
+    background-color: #b36666;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    padding: 19px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0b4b45e;
+    color: #b36666;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b36666;
+    color: white;
+    cursor: pointer;
+}
+
